@@ -163,7 +163,6 @@
 		FBC594D129878EDC00F48E4B /* EAT & FORK Rework */ = {
 			isa = PBXGroup;
 			children = (
-				FBC5951B2987B98400F48E4B /* Uti */,
 				FBC5951A2987B96E00F48E4B /* BillPopView */,
 				FBC595192987B95B00F48E4B /* MainColletionViewCell */,
 				FBC595182987B92700F48E4B /* MainTableViewCell */,
@@ -177,6 +176,7 @@
 				FBC594DB29878EDD00F48E4B /* Assets.xcassets */,
 				FBC594DD29878EDD00F48E4B /* LaunchScreen.storyboard */,
 				FBC594E029878EDD00F48E4B /* Info.plist */,
+				FBC5951B2987B98400F48E4B /* Uti */,
 				FBC595022987B28C00F48E4B /* Font */,
 			);
 			path = "EAT & FORK Rework";
@@ -701,7 +701,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "EAT & FORK Rework/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -729,7 +729,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "EAT & FORK Rework/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
