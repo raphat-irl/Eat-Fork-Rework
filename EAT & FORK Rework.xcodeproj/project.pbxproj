@@ -19,6 +19,15 @@
 		FBC594EA29878EDD00F48E4B /* EAT___FORK_ReworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC594E929878EDD00F48E4B /* EAT___FORK_ReworkTests.swift */; };
 		FBC594F429878EDD00F48E4B /* EAT___FORK_ReworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC594F329878EDD00F48E4B /* EAT___FORK_ReworkUITests.swift */; };
 		FBC594F629878EDD00F48E4B /* EAT___FORK_ReworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC594F529878EDD00F48E4B /* EAT___FORK_ReworkUITestsLaunchTests.swift */; };
+		FBC5950C2987B2D400F48E4B /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC595032987B2D300F48E4B /* Inter-Black.ttf */; };
+		FBC5950D2987B2D400F48E4B /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC595042987B2D300F48E4B /* Inter-Bold.ttf */; };
+		FBC5950E2987B2D400F48E4B /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC595052987B2D300F48E4B /* Inter-ExtraBold.ttf */; };
+		FBC5950F2987B2D400F48E4B /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC595062987B2D300F48E4B /* Inter-Thin.ttf */; };
+		FBC595102987B2D400F48E4B /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC595072987B2D300F48E4B /* Inter-ExtraLight.ttf */; };
+		FBC595112987B2D400F48E4B /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC595082987B2D300F48E4B /* Inter-Light.ttf */; };
+		FBC595122987B2D400F48E4B /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC595092987B2D300F48E4B /* Inter-Regular.ttf */; };
+		FBC595132987B2D400F48E4B /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC5950A2987B2D300F48E4B /* Inter-SemiBold.ttf */; };
+		FBC595142987B2D400F48E4B /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC5950B2987B2D300F48E4B /* Inter-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,14 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		132AB71925BC98BBE16969CF /* Pods_EAT___FORK_Rework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EAT___FORK_Rework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B9B588D15EEBD06A9F34946 /* Pods_EAT___FORK_Rework_EAT___FORK_ReworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EAT___FORK_Rework_EAT___FORK_ReworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		132AB71925BC98BBE16969CF /* Pods_EAT___FORK_Rework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_EAT___FORK_Rework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9B588D15EEBD06A9F34946 /* Pods_EAT___FORK_Rework_EAT___FORK_ReworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_EAT___FORK_Rework_EAT___FORK_ReworkUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CFCFFD17BC6F658B5288F0 /* Pods-EAT & FORK ReworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAT & FORK ReworkTests.release.xcconfig"; path = "Target Support Files/Pods-EAT & FORK ReworkTests/Pods-EAT & FORK ReworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		7993797D7EC44205252F1024 /* Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.release.xcconfig"; path = "Target Support Files/Pods-EAT & FORK Rework-EAT & FORK ReworkUITests/Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B58449CF82BEFA777285D20A /* Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.debug.xcconfig"; path = "Target Support Files/Pods-EAT & FORK Rework-EAT & FORK ReworkUITests/Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C96D342102CC2627ED6371E3 /* Pods-EAT & FORK ReworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAT & FORK ReworkTests.debug.xcconfig"; path = "Target Support Files/Pods-EAT & FORK ReworkTests/Pods-EAT & FORK ReworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1026C96DAF33A430B7C86B4 /* Pods-EAT & FORK Rework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAT & FORK Rework.debug.xcconfig"; path = "Target Support Files/Pods-EAT & FORK Rework/Pods-EAT & FORK Rework.debug.xcconfig"; sourceTree = "<group>"; };
-		D20DA2B97B6B5E79C041C7DA /* Pods_EAT___FORK_ReworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EAT___FORK_ReworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20DA2B97B6B5E79C041C7DA /* Pods_EAT___FORK_ReworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_EAT___FORK_ReworkTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36F8D89F2CF56718643C6CA /* Pods-EAT & FORK Rework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAT & FORK Rework.release.xcconfig"; path = "Target Support Files/Pods-EAT & FORK Rework/Pods-EAT & FORK Rework.release.xcconfig"; sourceTree = "<group>"; };
 		FBC594CF29878EDC00F48E4B /* EAT & FORK Rework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EAT & FORK Rework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC594D229878EDC00F48E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,10 +66,19 @@
 		FBC594DE29878EDD00F48E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBC594E029878EDD00F48E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBC594E529878EDD00F48E4B /* EAT & FORK ReworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EAT & FORK ReworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBC594E929878EDD00F48E4B /* EAT___FORK_ReworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAT___FORK_ReworkTests.swift; sourceTree = "<group>"; };
+		FBC594E929878EDD00F48E4B /* EAT___FORK_ReworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EAT___FORK_ReworkTests.swift"; sourceTree = "<group>"; };
 		FBC594EF29878EDD00F48E4B /* EAT & FORK ReworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EAT & FORK ReworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBC594F329878EDD00F48E4B /* EAT___FORK_ReworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAT___FORK_ReworkUITests.swift; sourceTree = "<group>"; };
-		FBC594F529878EDD00F48E4B /* EAT___FORK_ReworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAT___FORK_ReworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBC594F329878EDD00F48E4B /* EAT___FORK_ReworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EAT___FORK_ReworkUITests.swift"; sourceTree = "<group>"; };
+		FBC594F529878EDD00F48E4B /* EAT___FORK_ReworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EAT___FORK_ReworkUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		FBC595032987B2D300F48E4B /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		FBC595042987B2D300F48E4B /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		FBC595052987B2D300F48E4B /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FBC595062987B2D300F48E4B /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		FBC595072987B2D300F48E4B /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FBC595082987B2D300F48E4B /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		FBC595092987B2D300F48E4B /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		FBC5950A2987B2D300F48E4B /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		FBC5950B2987B2D300F48E4B /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +119,6 @@
 				C96D342102CC2627ED6371E3 /* Pods-EAT & FORK ReworkTests.debug.xcconfig */,
 				49CFCFFD17BC6F658B5288F0 /* Pods-EAT & FORK ReworkTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,6 +164,7 @@
 				FBC594DB29878EDD00F48E4B /* Assets.xcassets */,
 				FBC594DD29878EDD00F48E4B /* LaunchScreen.storyboard */,
 				FBC594E029878EDD00F48E4B /* Info.plist */,
+				FBC595022987B28C00F48E4B /* Font */,
 			);
 			path = "EAT & FORK Rework";
 			sourceTree = "<group>";
@@ -166,6 +184,22 @@
 				FBC594F529878EDD00F48E4B /* EAT___FORK_ReworkUITestsLaunchTests.swift */,
 			);
 			path = "EAT & FORK ReworkUITests";
+			sourceTree = "<group>";
+		};
+		FBC595022987B28C00F48E4B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FBC595032987B2D300F48E4B /* Inter-Black.ttf */,
+				FBC595042987B2D300F48E4B /* Inter-Bold.ttf */,
+				FBC595052987B2D300F48E4B /* Inter-ExtraBold.ttf */,
+				FBC595072987B2D300F48E4B /* Inter-ExtraLight.ttf */,
+				FBC595082987B2D300F48E4B /* Inter-Light.ttf */,
+				FBC5950B2987B2D300F48E4B /* Inter-Medium.ttf */,
+				FBC595092987B2D300F48E4B /* Inter-Regular.ttf */,
+				FBC5950A2987B2D300F48E4B /* Inter-SemiBold.ttf */,
+				FBC595062987B2D300F48E4B /* Inter-Thin.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,8 +312,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBC594DF29878EDD00F48E4B /* LaunchScreen.storyboard in Resources */,
+				FBC595112987B2D400F48E4B /* Inter-Light.ttf in Resources */,
+				FBC5950D2987B2D400F48E4B /* Inter-Bold.ttf in Resources */,
+				FBC595132987B2D400F48E4B /* Inter-SemiBold.ttf in Resources */,
 				FBC594DC29878EDD00F48E4B /* Assets.xcassets in Resources */,
+				FBC595102987B2D400F48E4B /* Inter-ExtraLight.ttf in Resources */,
 				FBC594DA29878EDC00F48E4B /* Main.storyboard in Resources */,
+				FBC595122987B2D400F48E4B /* Inter-Regular.ttf in Resources */,
+				FBC595142987B2D400F48E4B /* Inter-Medium.ttf in Resources */,
+				FBC5950C2987B2D400F48E4B /* Inter-Black.ttf in Resources */,
+				FBC5950E2987B2D400F48E4B /* Inter-ExtraBold.ttf in Resources */,
+				FBC5950F2987B2D400F48E4B /* Inter-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
