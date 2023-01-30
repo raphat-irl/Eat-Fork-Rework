@@ -28,6 +28,9 @@
 		FBC595122987B2D400F48E4B /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC595092987B2D300F48E4B /* Inter-Regular.ttf */; };
 		FBC595132987B2D400F48E4B /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC5950A2987B2D300F48E4B /* Inter-SemiBold.ttf */; };
 		FBC595142987B2D400F48E4B /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC5950B2987B2D300F48E4B /* Inter-Medium.ttf */; };
+		FBC5951F2987BFC200F48E4B /* LoadingProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC5951C2987BFC200F48E4B /* LoadingProgress.swift */; };
+		FBC595202987BFC200F48E4B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC5951D2987BFC200F48E4B /* Color.swift */; };
+		FBC595212987BFC200F48E4B /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC5951E2987BFC200F48E4B /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,9 @@
 		FBC595092987B2D300F48E4B /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		FBC5950A2987B2D300F48E4B /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		FBC5950B2987B2D300F48E4B /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		FBC5951C2987BFC200F48E4B /* LoadingProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingProgress.swift; sourceTree = "<group>"; };
+		FBC5951D2987BFC200F48E4B /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		FBC5951E2987BFC200F48E4B /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +163,13 @@
 		FBC594D129878EDC00F48E4B /* EAT & FORK Rework */ = {
 			isa = PBXGroup;
 			children = (
+				FBC5951B2987B98400F48E4B /* Uti */,
+				FBC5951A2987B96E00F48E4B /* BillPopView */,
+				FBC595192987B95B00F48E4B /* MainColletionViewCell */,
+				FBC595182987B92700F48E4B /* MainTableViewCell */,
+				FBC595172987B91200F48E4B /* Payment */,
+				FBC595162987B90600F48E4B /* Detail */,
+				FBC595152987B8FD00F48E4B /* Main */,
 				FBC594D229878EDC00F48E4B /* AppDelegate.swift */,
 				FBC594D429878EDC00F48E4B /* SceneDelegate.swift */,
 				FBC594D629878EDC00F48E4B /* ViewController.swift */,
@@ -200,6 +213,58 @@
 				FBC595062987B2D300F48E4B /* Inter-Thin.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		FBC595152987B8FD00F48E4B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FBC595162987B90600F48E4B /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FBC595172987B91200F48E4B /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		FBC595182987B92700F48E4B /* MainTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainTableViewCell;
+			sourceTree = "<group>";
+		};
+		FBC595192987B95B00F48E4B /* MainColletionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainColletionViewCell;
+			sourceTree = "<group>";
+		};
+		FBC5951A2987B96E00F48E4B /* BillPopView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BillPopView;
+			sourceTree = "<group>";
+		};
+		FBC5951B2987B98400F48E4B /* Uti */ = {
+			isa = PBXGroup;
+			children = (
+				FBC5951D2987BFC200F48E4B /* Color.swift */,
+				FBC5951C2987BFC200F48E4B /* LoadingProgress.swift */,
+				FBC5951E2987BFC200F48E4B /* View.swift */,
+			);
+			path = Uti;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,7 +517,10 @@
 			files = (
 				FBC594D729878EDC00F48E4B /* ViewController.swift in Sources */,
 				FBC594D329878EDC00F48E4B /* AppDelegate.swift in Sources */,
+				FBC595212987BFC200F48E4B /* View.swift in Sources */,
 				FBC594D529878EDC00F48E4B /* SceneDelegate.swift in Sources */,
+				FBC595202987BFC200F48E4B /* Color.swift in Sources */,
+				FBC5951F2987BFC200F48E4B /* LoadingProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
