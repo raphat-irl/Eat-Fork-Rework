@@ -1,0 +1,6 @@
+framework module Pods_EAT___FORK_Rework_EAT___FORK_ReworkUITests {
+  umbrella header "Pods-EAT & FORK Rework-EAT & FORK ReworkUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

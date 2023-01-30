@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37B58494FA1729ACC96D9BD1 /* Pods_EAT___FORK_ReworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20DA2B97B6B5E79C041C7DA /* Pods_EAT___FORK_ReworkTests.framework */; };
+		74F8910D3EAF26FCA90519B0 /* Pods_EAT___FORK_Rework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132AB71925BC98BBE16969CF /* Pods_EAT___FORK_Rework.framework */; };
+		8D477EC942E34BA4D316351A /* Pods_EAT___FORK_Rework_EAT___FORK_ReworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9B588D15EEBD06A9F34946 /* Pods_EAT___FORK_Rework_EAT___FORK_ReworkUITests.framework */; };
+		FBC594D329878EDC00F48E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC594D229878EDC00F48E4B /* AppDelegate.swift */; };
+		FBC594D529878EDC00F48E4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC594D429878EDC00F48E4B /* SceneDelegate.swift */; };
+		FBC594D729878EDC00F48E4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC594D629878EDC00F48E4B /* ViewController.swift */; };
+		FBC594DA29878EDC00F48E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC594D829878EDC00F48E4B /* Main.storyboard */; };
+		FBC594DC29878EDD00F48E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC594DB29878EDD00F48E4B /* Assets.xcassets */; };
+		FBC594DF29878EDD00F48E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC594DD29878EDD00F48E4B /* LaunchScreen.storyboard */; };
+		FBC594EA29878EDD00F48E4B /* EAT___FORK_ReworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC594E929878EDD00F48E4B /* EAT___FORK_ReworkTests.swift */; };
+		FBC594F429878EDD00F48E4B /* EAT___FORK_ReworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC594F329878EDD00F48E4B /* EAT___FORK_ReworkUITests.swift */; };
+		FBC594F629878EDD00F48E4B /* EAT___FORK_ReworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC594F529878EDD00F48E4B /* EAT___FORK_ReworkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBC594E629878EDD00F48E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC594C729878EDC00F48E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC594CE29878EDC00F48E4B;
+			remoteInfo = "EAT & FORK Rework";
+		};
+		FBC594F029878EDD00F48E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC594C729878EDC00F48E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC594CE29878EDC00F48E4B;
+			remoteInfo = "EAT & FORK Rework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		132AB71925BC98BBE16969CF /* Pods_EAT___FORK_Rework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EAT___FORK_Rework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9B588D15EEBD06A9F34946 /* Pods_EAT___FORK_Rework_EAT___FORK_ReworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EAT___FORK_Rework_EAT___FORK_ReworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CFCFFD17BC6F658B5288F0 /* Pods-EAT & FORK ReworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAT & FORK ReworkTests.release.xcconfig"; path = "Target Support Files/Pods-EAT & FORK ReworkTests/Pods-EAT & FORK ReworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		7993797D7EC44205252F1024 /* Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.release.xcconfig"; path = "Target Support Files/Pods-EAT & FORK Rework-EAT & FORK ReworkUITests/Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B58449CF82BEFA777285D20A /* Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.debug.xcconfig"; path = "Target Support Files/Pods-EAT & FORK Rework-EAT & FORK ReworkUITests/Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C96D342102CC2627ED6371E3 /* Pods-EAT & FORK ReworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAT & FORK ReworkTests.debug.xcconfig"; path = "Target Support Files/Pods-EAT & FORK ReworkTests/Pods-EAT & FORK ReworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1026C96DAF33A430B7C86B4 /* Pods-EAT & FORK Rework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAT & FORK Rework.debug.xcconfig"; path = "Target Support Files/Pods-EAT & FORK Rework/Pods-EAT & FORK Rework.debug.xcconfig"; sourceTree = "<group>"; };
+		D20DA2B97B6B5E79C041C7DA /* Pods_EAT___FORK_ReworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EAT___FORK_ReworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36F8D89F2CF56718643C6CA /* Pods-EAT & FORK Rework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAT & FORK Rework.release.xcconfig"; path = "Target Support Files/Pods-EAT & FORK Rework/Pods-EAT & FORK Rework.release.xcconfig"; sourceTree = "<group>"; };
+		FBC594CF29878EDC00F48E4B /* EAT & FORK Rework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EAT & FORK Rework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC594D229878EDC00F48E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBC594D429878EDC00F48E4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBC594D629878EDC00F48E4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBC594D929878EDC00F48E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBC594DB29878EDD00F48E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBC594DE29878EDD00F48E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBC594E029878EDD00F48E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC594E529878EDD00F48E4B /* EAT & FORK ReworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EAT & FORK ReworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC594E929878EDD00F48E4B /* EAT___FORK_ReworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAT___FORK_ReworkTests.swift; sourceTree = "<group>"; };
+		FBC594EF29878EDD00F48E4B /* EAT & FORK ReworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EAT & FORK ReworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC594F329878EDD00F48E4B /* EAT___FORK_ReworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAT___FORK_ReworkUITests.swift; sourceTree = "<group>"; };
+		FBC594F529878EDD00F48E4B /* EAT___FORK_ReworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAT___FORK_ReworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC594CC29878EDC00F48E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F8910D3EAF26FCA90519B0 /* Pods_EAT___FORK_Rework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC594E229878EDD00F48E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B58494FA1729ACC96D9BD1 /* Pods_EAT___FORK_ReworkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC594EC29878EDD00F48E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D477EC942E34BA4D316351A /* Pods_EAT___FORK_Rework_EAT___FORK_ReworkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8D9A1B264485042472C6B08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1026C96DAF33A430B7C86B4 /* Pods-EAT & FORK Rework.debug.xcconfig */,
+				D36F8D89F2CF56718643C6CA /* Pods-EAT & FORK Rework.release.xcconfig */,
+				B58449CF82BEFA777285D20A /* Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.debug.xcconfig */,
+				7993797D7EC44205252F1024 /* Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.release.xcconfig */,
+				C96D342102CC2627ED6371E3 /* Pods-EAT & FORK ReworkTests.debug.xcconfig */,
+				49CFCFFD17BC6F658B5288F0 /* Pods-EAT & FORK ReworkTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F52E96D3E717AFE7CFFCFFE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				132AB71925BC98BBE16969CF /* Pods_EAT___FORK_Rework.framework */,
+				1B9B588D15EEBD06A9F34946 /* Pods_EAT___FORK_Rework_EAT___FORK_ReworkUITests.framework */,
+				D20DA2B97B6B5E79C041C7DA /* Pods_EAT___FORK_ReworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBC594C629878EDC00F48E4B = {
+			isa = PBXGroup;
+			children = (
+				FBC594D129878EDC00F48E4B /* EAT & FORK Rework */,
+				FBC594E829878EDD00F48E4B /* EAT & FORK ReworkTests */,
+				FBC594F229878EDD00F48E4B /* EAT & FORK ReworkUITests */,
+				FBC594D029878EDC00F48E4B /* Products */,
+				B8D9A1B264485042472C6B08 /* Pods */,
+				F52E96D3E717AFE7CFFCFFE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC594D029878EDC00F48E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC594CF29878EDC00F48E4B /* EAT & FORK Rework.app */,
+				FBC594E529878EDD00F48E4B /* EAT & FORK ReworkTests.xctest */,
+				FBC594EF29878EDD00F48E4B /* EAT & FORK ReworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBC594D129878EDC00F48E4B /* EAT & FORK Rework */ = {
+			isa = PBXGroup;
+			children = (
+				FBC594D229878EDC00F48E4B /* AppDelegate.swift */,
+				FBC594D429878EDC00F48E4B /* SceneDelegate.swift */,
+				FBC594D629878EDC00F48E4B /* ViewController.swift */,
+				FBC594D829878EDC00F48E4B /* Main.storyboard */,
+				FBC594DB29878EDD00F48E4B /* Assets.xcassets */,
+				FBC594DD29878EDD00F48E4B /* LaunchScreen.storyboard */,
+				FBC594E029878EDD00F48E4B /* Info.plist */,
+			);
+			path = "EAT & FORK Rework";
+			sourceTree = "<group>";
+		};
+		FBC594E829878EDD00F48E4B /* EAT & FORK ReworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBC594E929878EDD00F48E4B /* EAT___FORK_ReworkTests.swift */,
+			);
+			path = "EAT & FORK ReworkTests";
+			sourceTree = "<group>";
+		};
+		FBC594F229878EDD00F48E4B /* EAT & FORK ReworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBC594F329878EDD00F48E4B /* EAT___FORK_ReworkUITests.swift */,
+				FBC594F529878EDD00F48E4B /* EAT___FORK_ReworkUITestsLaunchTests.swift */,
+			);
+			path = "EAT & FORK ReworkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC594CE29878EDC00F48E4B /* EAT & FORK Rework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC594F929878EDD00F48E4B /* Build configuration list for PBXNativeTarget "EAT & FORK Rework" */;
+			buildPhases = (
+				ABC337D427C5A437909A8AB0 /* [CP] Check Pods Manifest.lock */,
+				FBC594CB29878EDC00F48E4B /* Sources */,
+				FBC594CC29878EDC00F48E4B /* Frameworks */,
+				FBC594CD29878EDC00F48E4B /* Resources */,
+				E44A8348EA6CFC59A3628C87 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EAT & FORK Rework";
+			productName = "EAT & FORK Rework";
+			productReference = FBC594CF29878EDC00F48E4B /* EAT & FORK Rework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBC594E429878EDD00F48E4B /* EAT & FORK ReworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC594FC29878EDD00F48E4B /* Build configuration list for PBXNativeTarget "EAT & FORK ReworkTests" */;
+			buildPhases = (
+				05D1373409FF535F31124059 /* [CP] Check Pods Manifest.lock */,
+				FBC594E129878EDD00F48E4B /* Sources */,
+				FBC594E229878EDD00F48E4B /* Frameworks */,
+				FBC594E329878EDD00F48E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC594E729878EDD00F48E4B /* PBXTargetDependency */,
+			);
+			name = "EAT & FORK ReworkTests";
+			productName = "EAT & FORK ReworkTests";
+			productReference = FBC594E529878EDD00F48E4B /* EAT & FORK ReworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBC594EE29878EDD00F48E4B /* EAT & FORK ReworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC594FF29878EDD00F48E4B /* Build configuration list for PBXNativeTarget "EAT & FORK ReworkUITests" */;
+			buildPhases = (
+				FCC8C7CEE18586311D6C3855 /* [CP] Check Pods Manifest.lock */,
+				FBC594EB29878EDD00F48E4B /* Sources */,
+				FBC594EC29878EDD00F48E4B /* Frameworks */,
+				FBC594ED29878EDD00F48E4B /* Resources */,
+				4FBD31036015378EE0A2965F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC594F129878EDD00F48E4B /* PBXTargetDependency */,
+			);
+			name = "EAT & FORK ReworkUITests";
+			productName = "EAT & FORK ReworkUITests";
+			productReference = FBC594EF29878EDD00F48E4B /* EAT & FORK ReworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC594C729878EDC00F48E4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FBC594CE29878EDC00F48E4B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FBC594E429878EDD00F48E4B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FBC594CE29878EDC00F48E4B;
+					};
+					FBC594EE29878EDD00F48E4B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FBC594CE29878EDC00F48E4B;
+					};
+				};
+			};
+			buildConfigurationList = FBC594CA29878EDC00F48E4B /* Build configuration list for PBXProject "EAT & FORK Rework" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBC594C629878EDC00F48E4B;
+			productRefGroup = FBC594D029878EDC00F48E4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC594CE29878EDC00F48E4B /* EAT & FORK Rework */,
+				FBC594E429878EDD00F48E4B /* EAT & FORK ReworkTests */,
+				FBC594EE29878EDD00F48E4B /* EAT & FORK ReworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC594CD29878EDC00F48E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC594DF29878EDD00F48E4B /* LaunchScreen.storyboard in Resources */,
+				FBC594DC29878EDD00F48E4B /* Assets.xcassets in Resources */,
+				FBC594DA29878EDC00F48E4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC594E329878EDD00F48E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC594ED29878EDD00F48E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05D1373409FF535F31124059 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EAT & FORK ReworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FBD31036015378EE0A2965F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EAT & FORK Rework-EAT & FORK ReworkUITests/Pods-EAT & FORK Rework-EAT & FORK ReworkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EAT & FORK Rework-EAT & FORK ReworkUITests/Pods-EAT & FORK Rework-EAT & FORK ReworkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EAT & FORK Rework-EAT & FORK ReworkUITests/Pods-EAT & FORK Rework-EAT & FORK ReworkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC337D427C5A437909A8AB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EAT & FORK Rework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E44A8348EA6CFC59A3628C87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EAT & FORK Rework/Pods-EAT & FORK Rework-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EAT & FORK Rework/Pods-EAT & FORK Rework-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EAT & FORK Rework/Pods-EAT & FORK Rework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC8C7CEE18586311D6C3855 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EAT & FORK Rework-EAT & FORK ReworkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC594CB29878EDC00F48E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC594D729878EDC00F48E4B /* ViewController.swift in Sources */,
+				FBC594D329878EDC00F48E4B /* AppDelegate.swift in Sources */,
+				FBC594D529878EDC00F48E4B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC594E129878EDD00F48E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC594EA29878EDD00F48E4B /* EAT___FORK_ReworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC594EB29878EDD00F48E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC594F429878EDD00F48E4B /* EAT___FORK_ReworkUITests.swift in Sources */,
+				FBC594F629878EDD00F48E4B /* EAT___FORK_ReworkUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBC594E729878EDD00F48E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBC594CE29878EDC00F48E4B /* EAT & FORK Rework */;
+			targetProxy = FBC594E629878EDD00F48E4B /* PBXContainerItemProxy */;
+		};
+		FBC594F129878EDD00F48E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBC594CE29878EDC00F48E4B /* EAT & FORK Rework */;
+			targetProxy = FBC594F029878EDD00F48E4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBC594D829878EDC00F48E4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC594D929878EDC00F48E4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBC594DD29878EDD00F48E4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC594DE29878EDD00F48E4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBC594F729878EDD00F48E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBC594F829878EDD00F48E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBC594FA29878EDD00F48E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1026C96DAF33A430B7C86B4 /* Pods-EAT & FORK Rework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EAT & FORK Rework/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.EAT---FORK-Rework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBC594FB29878EDD00F48E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36F8D89F2CF56718643C6CA /* Pods-EAT & FORK Rework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EAT & FORK Rework/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.EAT---FORK-Rework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBC594FD29878EDD00F48E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96D342102CC2627ED6371E3 /* Pods-EAT & FORK ReworkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.EAT---FORK-ReworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EAT & FORK Rework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EAT & FORK Rework";
+			};
+			name = Debug;
+		};
+		FBC594FE29878EDD00F48E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49CFCFFD17BC6F658B5288F0 /* Pods-EAT & FORK ReworkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.EAT---FORK-ReworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EAT & FORK Rework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EAT & FORK Rework";
+			};
+			name = Release;
+		};
+		FBC5950029878EDD00F48E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58449CF82BEFA777285D20A /* Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.EAT---FORK-ReworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EAT & FORK Rework";
+			};
+			name = Debug;
+		};
+		FBC5950129878EDD00F48E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7993797D7EC44205252F1024 /* Pods-EAT & FORK Rework-EAT & FORK ReworkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.EAT---FORK-ReworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EAT & FORK Rework";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC594CA29878EDC00F48E4B /* Build configuration list for PBXProject "EAT & FORK Rework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC594F729878EDD00F48E4B /* Debug */,
+				FBC594F829878EDD00F48E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC594F929878EDD00F48E4B /* Build configuration list for PBXNativeTarget "EAT & FORK Rework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC594FA29878EDD00F48E4B /* Debug */,
+				FBC594FB29878EDD00F48E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC594FC29878EDD00F48E4B /* Build configuration list for PBXNativeTarget "EAT & FORK ReworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC594FD29878EDD00F48E4B /* Debug */,
+				FBC594FE29878EDD00F48E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC594FF29878EDD00F48E4B /* Build configuration list for PBXNativeTarget "EAT & FORK ReworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC5950029878EDD00F48E4B /* Debug */,
+				FBC5950129878EDD00F48E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBC594C729878EDC00F48E4B /* Project object */;
+}

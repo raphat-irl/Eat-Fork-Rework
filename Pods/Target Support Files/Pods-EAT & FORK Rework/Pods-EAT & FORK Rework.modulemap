@@ -1,0 +1,6 @@
+framework module Pods_EAT___FORK_Rework {
+  umbrella header "Pods-EAT & FORK Rework-umbrella.h"
+
+  export *
+  module * { export * }
+}
